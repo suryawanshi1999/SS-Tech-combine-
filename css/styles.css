@@ -1,0 +1,443 @@
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+#header-nav
+{
+  background-color:#337AB7;
+  border-radius: 0;
+  border:0;
+}
+.navbar-brand h1
+{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: .75;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+h1 > span
+{
+  color: orange;
+}
+
+div > h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 35px;
+  margin: 0px;
+}
+
+.list{
+  text-align: justify;
+  font-size: 16px;
+  margin-left: 100px;
+}
+
+.listHeading {
+  margin-top: 10px;
+
+}
+ul li{
+  margin-top: 5px;
+}
+
+.service{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  border: 1px solid #E9EAED;
+  background-color: #337AB7;
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+
+/*---------------------Home Page Portfolio-------------------------*/
+
+
+.text-uppercase, .text-secondary{
+  text-transform: uppercase;
+}
+
+
+.project-area{
+    padding: 4rem 0;
+}
+
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.row .element-item .img .img-fluid {
+  width: 100%;
+}
+/*-------------------Homepage portfolio end-----------------------*/
+
+
+.btn{                            /*Button Get Connect and Enquiry*/
+  background-color: #ffa500; 
+  color: #fff;
+}
+
+.btn:hover{                   /*Button Get Connect and Enquiry*/
+  text-decoration: none;
+  color:#fff;
+  background-color: #2a73cc;
+}
+
+.PageContent{                 /*Web and App development, Data Science and ML section*/
+  text-align: justify;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+  border:1px solid #337AB7;
+  border-radius: 10px;
+  box-shadow: 2px 2px #ffa500;
+}
+
+.AboutPageContent{          /*About Page Content*/
+  text-align: justify;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  border:1px solid #337AB7;
+  border-radius: 10px;
+  box-shadow: 2px 2px #89d9f7;
+}
+
+
+/*.nav-pills>li.active>a{
+  color: #337ab7;
+  background-color: #fff;
+}*/
+
+
+
+.navbar-brand h1:hover, .navbar-brand h1:focus 
+{
+  text-decoration: none;
+}
+#toggle-button
+{
+  background-color: white;
+  border:1px solid #337AB7;
+  margin-top: 25px;
+}
+
+.navbar-default .navbar-collapse
+{
+    border: 0px;
+    margin-bottom: 0px;
+}
+/*
+#nav-list a:hover {
+    background-color: #d8d4d4;
+}*/
+#nav-list a 
+{
+  color: white;
+  text-align: center;
+  background-color: #337AB7;
+/*  border: 1px solid white;*/
+  font-weight: bold;
+}
+
+@media(max-width: 767px) 
+{
+  .navbar-brand h1
+  {
+    padding-left: 3px;
+  }
+}
+
+.progress-container 
+{
+  width: 100%;
+  height: 5px;
+  position: left;
+  /*background: #ccc;*/
+}
+
+.progress-bar 
+h4 > a{
+  height: 5px;
+  background: #337AB7;
+  width: 0%;
+}
+
+/*Side-bar menu*/
+.affix 
+{
+    top: 20px;
+    /*z-index: 9999 !important;*/
+}
+
+/*Footer*/
+footer
+{
+  background-color: #333333;
+  color: white;
+  padding-top: 15px;
+}
+
+
+/*--------------------------Portfolio-------------------------*/
+
+#sstech-banner
+{
+  margin: 30px auto 0px auto;
+  border-radius: 50px;
+}
+.member-box
+{
+  /*background-color: red;*/
+}
+.indiviudal-box
+{
+  /*background-color: green;*/
+  margin-top:25px;
+  margin-bottom: 25px; 
+  padding:20px 8px;
+  float: left;
+  border: 1px solid #E9EAED;
+  border-radius: 10px;
+
+}
+.member-img
+{
+  width: 200px;
+  height: 200px;
+ 
+}
+.member-decription
+{
+  padding-left: 15px;
+}
+/*Media query for the member images */
+@media (min-width: 768px) and (max-width:980px)
+{
+    .member-img
+    {
+      width: 170px;
+      height: 170px;
+    }
+    .member-decription
+    {
+      padding-left: 25px;
+    }
+}
+
+/*--------------------------About-us------------------------*/
+.progress 
+{
+    height: 18px !important;
+}
+.total-skill-box
+{
+    /*background-color: green;*/
+}
+@media (max-width:767px)
+{
+    .pull-right
+    {
+      float:none !important;
+    }
+    .total-skill-box
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+}
+.know-more 
+{
+    float:right;
+}
+.know-more:hover
+{
+    text-decoration: none;
+}
+
+/*Testimonial*/
+
+.inside-box
+{
+    background-color: white;
+    padding: 20px 20px;
+    margin-bottom: 25px;
+   /* border: 1px solid #E9EAED;*/
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+}
+.testimonial-img
+{
+    float: left;
+    margin-right: 8px;
+}
+
+/*Personal Portfolio*/
+
+/*breadcrums*/
+/* Style the list */
+ul.breadcrumb {
+  /*padding: 10px 16px;*/
+  list-style: none;
+  /*background-color: #eee;*/
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  /*font-size: 18px;*/
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 5px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #337AB7;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: none;
+}
+/*jumbotron*/
+/*
+.jumbotron
+{
+    height: 100vh;
+    background-image: url(../images/Abhishek%20Kumar%20Singh.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-fluid .jumbotron
+{
+   border-radius: 0px; 
+}*/
+.personal-img-outside
+{
+  width: 120px;
+  height: 120px;
+}
+.personal-img-inside
+{
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+  padding: 2px 2px;
+}
+
+/* Style buttons */
+.downlaod {
+  background-color: #337AB7;
+  border: none;
+  color: white;
+  padding: 10px 38px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+/* Darker background on mouse-over */
+.downlaod:hover {
+  background-color: #337AB0;
+    color: white;
+}
+
+/*My work button*/
+.my-work
+{
+    background-color: white;
+    color: black;
+    border:1px solid grey; 
+}
+.my-work:hover
+{
+    background-color: white;
+    color: black;
+    border:1px solid grey; 
+}
+/*MY Services*/
+.service-logo
+{
+    
+}
+
+/*Accordion*/
+.panel-group 
+{
+    margin-bottom: 0px;
+}
+.panel
+{
+    background-color: white;
+}
+.panel-default>.panel-heading
+{
+    background-color:#F2F3F7;
+}
+.panel-heading 
+{
+    padding: 15px 20px;
+    background-color: #F2F3F7;
+}
+.panel-title 
+{
+    font-size: 18px;
+}
+/********Blogs*/
+.blogs-img
+{
+    
+}
+.content-date
+{
+    background-color: #337AB7;
+    color: white;
+    padding:5px 15px;
+}
+
+/*******Contact us*******/
