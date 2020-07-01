@@ -94,7 +94,7 @@ ul li{
 }
 
 .project-area .grid .our-project > .title h4{
-    font: normal 700 25px/12px var(--roboto);
+    font: normal 700 18px/12px var(--roboto);
 }
 
 .project-area .grid .our-project .img a:hover img{
@@ -108,8 +108,8 @@ ul li{
 
 
 .btn{                            /*Button Get Connect and Enquiry*/
-  background-color: #ffa500; 
-  color: #fff;
+  background-color: #337ab7;; 
+  color: white;
 }
 
 .btn:hover{                   /*Button Get Connect and Enquiry*/
@@ -205,6 +205,53 @@ h4 > a{
 {
     top: 20px;
     /*z-index: 9999 !important;*/
+}
+/*.sidenav
+{
+    background-color: #F1F1F1;
+}*/
+/*Social media icons*/
+/*
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}*/
+
+.icon-bar a {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 10px;
+  /*transition: all 0.3s ease;*/
+  color: white;
+  font-size: 18px;
+  border-radius: 100%;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
 }
 
 /*Footer*/
